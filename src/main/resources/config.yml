@@ -1,0 +1,56 @@
+# How often the server should save the data
+# Note: in seconds
+autosave: 600
+
+# time for the next income in the bank account
+# Note: in seconds
+yield_time: 129600
+
+# Database information
+database:
+  host: 'localhost'
+  port: 3306
+  user: 'root'
+  password: 'docker'
+  name: 'minecraft'
+
+# name - level name
+# price - price to unlock the level
+# max_money - maximum money able to store
+# max_income - maximum money capable of receiving in an income
+# percentage_income - how many percent of the money stored will be the income
+bank_account_levels:
+  standard:
+    name: 'Padrão'
+    price: 0
+    max_money: 50000000
+    max_income: 500000
+    percentage_income: 2
+
+  beginner:
+    name: 'Iniciante'
+    price: 5500000
+    max_money: 150000000
+    max_income: 1500000
+    percentage_income: 2
+
+  advanced:
+    name: 'Avançada'
+    price: 8500000
+    max_money: 380000000
+    max_income: 3800000
+    percentage_income: 3
+
+  premium:
+    name: 'Premium'
+    price: 18000000
+    max_money: 650000000
+    max_income: 6500000
+    percentage_income: 3.5
+
+  ultra:
+    name: 'Ultra'
+    price: 45000000
+    max_money: 1000000000
+    max_income: 10000000
+    percentage_income: 4

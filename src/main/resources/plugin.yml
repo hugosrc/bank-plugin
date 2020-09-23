@@ -1,0 +1,10 @@
+name: Bank
+version: 1.0
+main: me.hugosrc.Bank.BankPlugin
+author: hugosrc
+depend: [Vault, Citizens, ProtocolLib]
+commands:
+  bank:
+    permission: 'server.createnpc.bank'
+    description: 'create an NPC to access the bank'
+    usage: 'Usage: /bank set'
