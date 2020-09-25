@@ -43,7 +43,7 @@ In the history item the player will be able to see his last 10 transactions.
 In the improvement menu the player will be able to pay the banker to improve his account type, to be able to store more coins and receive more income.
 
 <p align="center">
-    <img src=".github/images/deposit.png" height="320px" />
+    <img src=".github/images/upgrades.png" height="320px" />
 </p>
 
 ## Getting started
